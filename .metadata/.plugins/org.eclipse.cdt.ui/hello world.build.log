@@ -1,0 +1,6 @@
+23:29:53 **** Incremental Build of configuration Release for project hello world ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:29:53 Build Finished (took 79ms)
+

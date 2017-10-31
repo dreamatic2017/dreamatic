@@ -1,0 +1,2 @@
+gcc -I /opt/intel/opencl-sdk/include -L /opt/intel/opencl-sdk/lib64 -o hello main.c -Wl,-rpath,/opt/intel/opencl-sdk/lib64 -lOpenCL
+gcc -I /opt/intel/opencl-sdk/include -L /opt/intel/opencl-sdk/lib64 -o /home/lynn/workspace/OpenCL_001/hello /home/lynn/workspace/OpenCL_001/main.c -Wl,-rpath,/opt/intel/opencl-sdk/lib64 -lOpenCL

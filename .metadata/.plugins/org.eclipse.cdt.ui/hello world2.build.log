@@ -1,0 +1,10 @@
+22:53:32 **** Incremental Build of configuration Debug for project hello world2 ****
+make all 
+Building target: hello world2
+Invoking: GCC C Linker
+gcc  -o "hello world2"  ./src/hello\ world2.o   -lGL -lGLU -lglut
+Finished building target: hello world2
+ 
+
+22:53:33 Build Finished (took 281ms)
+

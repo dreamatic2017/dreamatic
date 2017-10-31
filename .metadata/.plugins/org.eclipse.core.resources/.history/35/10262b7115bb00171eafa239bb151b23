@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void main(void)
+{
+	printf("hello world!\n");
+	clock_t start,finish;
+	double cycle=100000000;//一亿次加法
+	double i=0,j=0;
+	double elapse;
+	start=clock();
+		for(i=0;i<cycle;i++)
+		{
+			j++;
+		}
+	finish=clock();
+	elapse=(double)(1000*(finish-start)/CLOCKS_PER_SEC);
+	printf("1 billion add ops time elapse:%5.1fms\n",elapse);
+//-----------------------------------------------------------
+	start=clock();
+		for(i=0;i<cycle;i++)
+		{
+			j=19999.09*12000.01*rand();
+		}
+	finish=clock();
+	elapse=(double)(1000*(finish-start)/CLOCKS_PER_SEC);
+	printf("1 billion fp mul ops time elapse:%5.1fms\n",elapse);
+	//printf("%10.4f",j);
+//-----------------------------------------------------------
+
+
+}

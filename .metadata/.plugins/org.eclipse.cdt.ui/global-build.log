@@ -1,0 +1,3191 @@
+22:50:43 **** Incremental Build of configuration Release for project OpenCL_001 ****
+make all 
+Building target: OpenCL_001
+Invoking: GCC C Linker
+gcc  -o "OpenCL_001"  ./main.o   
+./main.o：在函数‘main’中：
+main.c:(.text.startup+0xc3)：对‘clGetPlatformIDs’未定义的引用
+main.c:(.text.startup+0xe3)：对‘clGetDeviceIDs’未定义的引用
+main.c:(.text.startup+0xfe)：对‘clCreateContext’未定义的引用
+main.c:(.text.startup+0x113)：对‘clCreateCommandQueue’未定义的引用
+main.c:(.text.startup+0x12d)：对‘clCreateBuffer’未定义的引用
+main.c:(.text.startup+0x14c)：对‘clCreateProgramWithSource’未定义的引用
+main.c:(.text.startup+0x16c)：对‘clBuildProgram’未定义的引用
+main.c:(.text.startup+0x182)：对‘clCreateKernel’未定义的引用
+main.c:(.text.startup+0x199)：对‘clSetKernelArg’未定义的引用
+makefile:29: recipe for target 'OpenCL_001' failed
+main.c:(.text.startup+0x1af)：对‘clEnqueueTask’未定义的引用
+main.c:(.text.startup+0x1da)：对‘clEnqueueReadBuffer’未定义的引用
+main.c:(.text.startup+0x1f2)：对‘clFlush’未定义的引用
+main.c:(.text.startup+0x1fe)：对‘clFinish’未定义的引用
+main.c:(.text.startup+0x20a)：对‘clReleaseKernel’未定义的引用
+main.c:(.text.startup+0x216)：对‘clReleaseProgram’未定义的引用
+main.c:(.text.startup+0x224)：对‘clReleaseMemObject’未定义的引用
+main.c:(.text.startup+0x230)：对‘clReleaseCommandQueue’未定义的引用
+main.c:(.text.startup+0x23c)：对‘clReleaseContext’未定义的引用
+collect2: error: ld returned 1 exit status
+make: *** [OpenCL_001] Error 1
+22:51:02 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:51:03 **** Incremental Build of configuration Release for project OpenGL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:51:51 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:56:59 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:56:59 **** Incremental Build of configuration Release for project OpenGL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:57:01 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:58:42 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:58:54 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:59:09 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:59:13 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:59:23 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:59:39 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:59:39 **** Incremental Build of configuration Release for project OpenGL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:59:42 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:59:56 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:59:57 **** Incremental Build of configuration Release for project OpenGL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+23:00:06 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+23:00:06 **** Incremental Build of configuration Release for project OpenGL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+23:00:10 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I/opt/intel/opencl-sdk/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:4:20: fatal error: CL/cle.h: 没有那个文件或目录
+ #include <CL/cle.h>
+                    ^
+compilation terminated.
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+23:00:26 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I/opt/intel/opencl-sdk/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:4:20: fatal error: CL/cle.h: 没有那个文件或目录
+ #include <CL/cle.h>
+                    ^
+compilation terminated.
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+23:00:26 **** Incremental Build of configuration Release for project OpenGL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+23:00:32 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I/opt/intel/opencl-sdk/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:4:20: fatal error: CL/cle.h: 没有那个文件或目录
+ #include <CL/cle.h>
+                    ^
+compilation terminated.
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+23:00:32 **** Incremental Build of configuration Release for project OpenGL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+23:00:38 **** Incremental Build of configuration Debug for project OpenCL_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I/opt/intel/opencl-sdk/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:47:1: warning: ‘clCreateCommandQueue’ is deprecated [-Wdeprecated-declarations]
+ command_queue = clCreateCommandQueue(context, device_id, 0, &ret);
+ ^~~~~~~~~~~~~
+In file included from ../main.c:4:0:
+/opt/intel/opencl-sdk/include/CL/cl.h:1428:1: note: declared here
+ clCreateCommandQueue(cl_context                     /* context */,
+ ^~~~~~~~~~~~~~~~~~~~
+../main.c:66:1: warning: ‘clEnqueueTask’ is deprecated [-Wdeprecated-declarations]
+ ret = clEnqueueTask(command_queue, kernel, 0, NULL,NULL);
+ ^~~
+In file included from ../main.c:4:0:
+/opt/intel/opencl-sdk/include/CL/cl.h:1442:1: note: declared here
+ clEnqueueTask(cl_command_queue  /* command_queue */,
+ ^~~~~~~~~~~~~
+Finished building: ../main.c
+ 
+Building target: OpenCL_001
+Invoking: GCC C Linker
+gcc -o "OpenCL_001"  ./main.o   -L/opt/intel/opencl-sdk/lib64 -lOpenCL
+Finished building target: OpenCL_001
+ 
+15:05:02 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:05:06 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:06:26 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:06:30 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:07:00 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:07:04 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:07:37 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:07:40 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:08:22 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:08:28 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:09:27 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:09:28 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:10:25 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:10:27 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:10:46 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:10:48 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:12:26 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:12:30 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:23:9: error: ‘n’ undeclared (first use in this function)
+subdir.mk:18: recipe for target 'main.o' failed
+         n = write(fd, "ATZ\r", 4);
+         ^
+../main.c:23:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [main.o] Error 1
+15:12:46 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:23:9: error: ‘n’ undeclared (first use in this function)
+         n = write(fd, "ATZ\r", 4);
+         ^
+../main.c:23:9: note: each undeclared identifier is reported only once for each function it appears in
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+15:12:49 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:12:52 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:12:57 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:12:59 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:13:01 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:13:37 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:13:40 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:13:42 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:13:50 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:13:52 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:14:41 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:12:2: warning: ‘fd’ is used uninitialized in this function [-Wuninitialized]
+  close(fd);
+  ^~~~~~~~~
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:14:43 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:19:26 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:23:2: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  else
+  ^~~~
+../main.c:26:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+   int n;
+   ^~~
+../main.c:28:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+         if (n < 0)
+         ^~
+../main.c:30:10: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+          printf("hello world");
+          ^~~~~~
+../main.c:12:2: warning: ‘fd’ is used uninitialized in this function [-Wuninitialized]
+  close(fd);
+  ^~~~~~~~~
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:20:27 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:89:2: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  else
+  ^~~~
+../main.c:92:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+   int n;
+   ^~~
+../main.c:94:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+         if (n < 0)
+         ^~
+../main.c:96:10: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+          printf("hello world");
+          ^~~~~~
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:20:30 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:52 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:20:53 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+15:22:33 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘main’:
+../main.c:90:2: warning: this ‘else’ clause does not guard... [-Wmisleading-indentation]
+  else
+  ^~~~
+../main.c:93:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘else’
+   int n;
+   ^~~
+../main.c:95:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+         if (n < 0)
+         ^~
+../main.c:97:10: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘if’
+          printf("hello world");
+          ^~~~~~
+Finished building: ../main.c
+ 
+Building target: Console_001
+Invoking: GCC C Linker
+gcc  -o "Console_001"  ./main.o   
+Finished building target: Console_001
+ 
+15:22:35 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:01:18 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:01:18 **** Incremental Build of configuration Release for project GTK_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/gtk-2.0 -I/usr/include/glib-2.0 -O3 -Wall -c -fmessage-length=0 `pkg-config --cflags gtk+-2.0` -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘gtk_win_button2’:
+../main.c:42:9: warning: assignment discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+     str = gtk_entry_get_text(GTK_ENTRY(wgt->entry_2));//获取文本框输入
+         ^
+../main.c:45:11: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+     float x;
+           ^
+../main.c: In function ‘init_input_widget’:
+../main.c:100:24: warning: passing argument 1 of ‘gtk_entry_set_text’ from incompatible pointer type [-Wincompatible-pointer-types]
+     gtk_entry_set_text(wgt.entry_2,"默认");
+                        ^~~
+In file included from /usr/include/gtk-2.0/gtk/gtktreeview.h:31:0,
+                 from /usr/include/gtk-2.0/gtk/gtkcombobox.h:29,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:72,
+                 from ../main.c:1:
+/usr/include/gtk-2.0/gtk/gtkentry.h:213:12: note: expected ‘GtkEntry * {aka struct _GtkEntry *}’ but argument is of type ‘GtkWidget * {aka struct _GtkWidget *}’
+ void       gtk_entry_set_text                   (GtkEntry      *entry,
+            ^~~~~~~~~~~~~~~~~~
+../main.c:101:24: warning: passing argument 1 of ‘gtk_entry_set_text’ from incompatible pointer type [-Wincompatible-pointer-types]
+     gtk_entry_set_text(wgt.entry_3,"default");
+                        ^~~
+In file included from /usr/include/gtk-2.0/gtk/gtktreeview.h:31:0,
+                 from /usr/include/gtk-2.0/gtk/gtkcombobox.h:29,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:72,
+                 from ../main.c:1:
+/usr/include/gtk-2.0/gtk/gtkentry.h:213:12: note: expected ‘GtkEntry * {aka struct _GtkEntry *}’ but argument is of type ‘GtkWidget * {aka struct _GtkWidget *}’
+ void       gtk_entry_set_text                   (GtkEntry      *entry,
+            ^~~~~~~~~~~~~~~~~~
+../main.c:102:24: warning: passing argument 1 of ‘gtk_entry_set_text’ from incompatible pointer type [-Wincompatible-pointer-types]
+     gtk_entry_set_text(wgt.entry_4,"请输入数字");
+                        ^~~
+In file included from /usr/include/gtk-2.0/gtk/gtktreeview.h:31:0,
+                 from /usr/include/gtk-2.0/gtk/gtkcombobox.h:29,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:72,
+                 from ../main.c:1:
+/usr/include/gtk-2.0/gtk/gtkentry.h:213:12: note: expected ‘GtkEntry * {aka struct _GtkEntry *}’ but argument is of type ‘GtkWidget * {aka struct _GtkWidget *}’
+ void       gtk_entry_set_text                   (GtkEntry      *entry,
+            ^~~~~~~~~~~~~~~~~~
+Finished building: ../main.c
+ 
+Building target: GTK_001
+Invoking: GCC C Linker
+gcc  ./main.o   `pkg-config --libs gtk+-2.0` -o "GTK_001"
+Finished building target: GTK_001
+ 
+22:01:20 **** Build of configuration Release for project GTK_002_progressbar ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/gtk-2.0 -I/usr/include/glib-2.0 -O3 -Wall -c -fmessage-length=0 `pkg-config --cflags gtk+-2.0` -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: GTK_002_progressbar
+Invoking: GCC C Linker
+gcc  ./main.o   `pkg-config --libs gtk+-2.0` -o "GTK_002_progressbar"
+Finished building target: GTK_002_progressbar
+ 
+22:01:31 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:22 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:22 **** Incremental Build of configuration Release for project GTK_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:02:23 **** Incremental Build of configuration Release for project GTK_002_progressbar ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -I/usr/include/gtk-2.0 -I/usr/include/glib-2.0 -O3 -Wall -c -fmessage-length=0 `pkg-config --cflags gtk+-2.0` -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: GTK_002_progressbar
+Invoking: GCC C Linker
+gcc  ./main.o   `pkg-config --libs gtk+-2.0` -o "GTK_002_progressbar"
+Finished building target: GTK_002_progressbar
+ 
+22:02:30 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:04:25 **** Incremental Build of configuration Release for project GTK_002_progressbar ****
+make all 
+make: Nothing to be done for 'all'.
+22:04:44 **** Incremental Build of configuration Release for project GTK_002_progressbar ****
+make all 
+make: Nothing to be done for 'all'.
+22:05:37 **** Incremental Build of configuration Release for project GTK_002_progressbar ****
+make all 
+make: Nothing to be done for 'all'.
+22:05:39 **** Incremental Build of configuration Release for project GTK_002_progressbar ****
+make all 
+make: Nothing to be done for 'all'.
+22:06:58 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+22:07:03 **** Incremental Build of configuration Release for project Console_001 ****
+make all 
+make: Nothing to be done for 'all'.
+19:55:50 **** Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:3:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+19:56:20 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:43 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+19:56:47 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:3:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+19:58:58 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:4:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+19:59:02 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:38 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:8:16: warning: unused variable ‘finish’ [-Wunused-variable]
+  clock_t start,finish;
+                ^~~~~~
+../main.c:8:10: warning: unused variable ‘start’ [-Wunused-variable]
+  clock_t start,finish;
+          ^~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:03:40 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:03:54 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:8:16: warning: unused variable ‘finish’ [-Wunused-variable]
+  clock_t start,finish;
+                ^~~~~~
+../main.c:8:10: warning: unused variable ‘start’ [-Wunused-variable]
+  clock_t start,finish;
+          ^~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:03:56 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:04:15 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:9:16: warning: unused variable ‘finish’ [-Wunused-variable]
+  clock_t start,finish;
+                ^~~~~~
+../main.c:9:10: warning: unused variable ‘start’ [-Wunused-variable]
+  clock_t start,finish;
+          ^~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:04:17 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:12:06 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:12:09 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:21:9: warning: unknown escape sequence: '\d'
+  printf("time elapse:\d",elapse);
+         ^~~~~~~~~~~~~~~~
+../main.c:21:9: warning: too many arguments for format [-Wformat-extra-args]
+../main.c:20:15: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=finish-start;
+         ~~~~~~^~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:12:13 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:12:30 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:21:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:15: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=finish-start;
+         ~~~~~~^~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:12:31 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:13:51 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:15: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=finish-start;
+         ~~~~~~^~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:13:55 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:48 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:15: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=finish-start;
+         ~~~~~~^~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:14:50 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:56 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:14:58 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:01 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:02 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:03 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:16 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:15: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=finish-start;
+         ~~~~~~^~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:15:19 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:21 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:15:22 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:23 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:15: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=finish-start;
+         ~~~~~~^~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:16:25 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:32 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:34 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:50 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:17:22 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:15: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=finish-start;
+         ~~~~~~^~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:17:25 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:17:50 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:16: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(finish-start)/CLOCKS_PER_SEC;
+         ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:17:52 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:18:02 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:21:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:16: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(finish-start)/CLOCKS_PER_SEC;
+         ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:18:04 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:18:33 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:21:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:24: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(finish-start)/CLOCKS_PER_SEC;
+                 ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:18:35 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:18:53 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:21:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:23: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(float)(finish-start)/CLOCKS_PER_SEC;
+                ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:18:54 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:19:02 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:21:23: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("time elapse:%d",elapse);
+                       ^
+../main.c:20:24: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(finish-start)/CLOCKS_PER_SEC;
+                 ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:19:03 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:19:29 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:20:24: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(finish-start)/CLOCKS_PER_SEC;
+                 ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:19:31 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:19:40 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:20:16: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(finish-start)/CLOCKS_PER_SEC;
+         ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:19:42 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:01 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:20:24: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(finish-start)/CLOCKS_PER_SEC;
+                 ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:20:03 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:12 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:20:24: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(finish-start)/CLOCKS_PER_SEC;
+                 ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:20:14 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:37 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:20:24: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(finish-start)/CLOCKS_PER_SEC;
+                 ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:20:39 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:20:44 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:20:24: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(finish-start)/CLOCKS_PER_SEC;
+                 ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:20:46 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:21:40 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:24: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(finish-start)/CLOCKS_PER_SEC;
+                 ~~~~~~~^~~~~~~
+../main.c:17:5: warning: ‘j’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    j++;
+    ~^~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:21:40 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:21:42 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:08 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:24: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(finish-start)/CLOCKS_PER_SEC;
+                 ~~~~~~~^~~~~~~
+../main.c:17:5: warning: ‘j’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    j++;
+    ~^~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:22:10 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:28 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:25: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)((finish-start)/CLOCKS_PER_SEC);
+                  ~~~~~~~^~~~~~~
+../main.c:17:5: warning: ‘j’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    j++;
+    ~^~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:22:30 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:42 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:25: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)((finish-start)/CLOCKS_PER_SEC);
+                  ~~~~~~~^~~~~~~
+../main.c:17:5: warning: ‘j’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    j++;
+    ~^~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:22:44 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:22:58 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:25: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)((finish-start)/CLOCKS_PER_SEC);
+                  ~~~~~~~^~~~~~~
+../main.c:17:5: warning: ‘j’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    j++;
+    ~^~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:23:00 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:23:02 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:23:46 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:25: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)((finish-start)/CLOCKS_PER_SEC);
+                  ~~~~~~~^~~~~~~
+../main.c:17:5: warning: ‘j’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    j++;
+    ~^~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:23:48 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:24:09 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:25: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)((finish-start)/CLOCKS_PER_SEC);
+                  ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:24:12 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:24:35 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:25: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)((finish-start)/CLOCKS_PER_SEC);
+                  ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:24:36 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:25:43 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:25: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)((finish-start)/CLOCKS_PER_SEC);
+                  ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:25:44 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:17 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:30: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(1000*(finish-start)/CLOCKS_PER_SEC);
+                       ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:26:19 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:40 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:19:8: warning: value computed is not used [-Wunused-value]
+  finish-clock();
+  ~~~~~~^~~~~~~~
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+../main.c:20:30: warning: ‘finish’ is used uninitialized in this function [-Wuninitialized]
+  elapse=(double)(1000*(finish-start)/CLOCKS_PER_SEC);
+                       ~~~~~~~^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:26:41 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:45 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:47 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:49 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:50 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:26:51 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:27:10 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:27:12 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:27:19 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:27:21 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:27:34 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:27:36 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:26 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:28:28 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:37 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:28:39 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:28:55 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:28:56 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:14 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:29:15 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:26 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:29:28 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:31 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:32 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:33 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:44 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:29:46 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:49 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:29:50 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:19 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:30:21 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:52 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:30:53 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:18 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:31:20 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:37 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:31:39 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:41 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:42 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:43 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:52 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:31:54 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:55 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:31:56 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:32:02 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:32:04 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:32:06 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:32:07 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:32:08 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:32:18 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:32:19 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:33:23 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:12: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%ld",j);
+            ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:33:24 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:33:29 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:13: warning: format ‘%lld’ expects argument of type ‘long long int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%lld",j);
+             ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:33:31 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:33:34 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:33:35 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:33:53 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:22:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:33:55 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:01 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:34:03 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:18 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:36:20 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:33 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:36:35 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:42 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:36:44 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:36:52 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:36:53 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:37:10 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:37:12 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:38:53 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:38:55 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:38:58 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:39:38 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:39:40 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:39:58 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:39:59 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:41:08 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:41:11 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:13 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:42:15 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:42 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:42:44 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:09 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:43:11 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:43:41 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:43:43 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:41 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:44:43 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:13 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:29:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("10.4f",j);
+         ^~~~~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:45:15 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:26 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:45:28 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:45:58 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:46:00 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:25 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:46:27 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:46:53 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:46:55 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:47:18 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:47:19 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:47:33 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:27 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:48:29 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:47 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:48:48 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:48:53 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:48:55 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:15 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:50:17 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:45 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:50:47 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:51:52 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:51:54 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:15 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:39:14: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("%5.2f",rand());
+              ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:53:17 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:53:58 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:54:00 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:55:55 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:55:57 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:56:14 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:56:32 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:39:14: error: too many arguments to function ‘rand’
+  printf("%i",rand(213));
+              ^~~~
+In file included from ../main.c:2:0:
+/usr/include/stdlib.h:335:12: note: declared here
+ extern int rand (void) __THROW;
+            ^~~~
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+20:59:10 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:39:11: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("%f",rand());
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:59:12 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+20:59:43 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+20:59:45 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:00:58 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:01:00 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:01:29 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:39:20: error: too few arguments to function ‘time’
+  printf("%d",srand(time()));
+                    ^~~~
+In file included from ../main.c:3:0:
+/usr/include/time.h:192:15: note: declared here
+ extern time_t time (time_t *__timer) __THROW;
+subdir.mk:18: recipe for target 'main.o' failed
+               ^~~~
+make: *** [main.o] Error 1
+21:01:32 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:39:20: error: too few arguments to function ‘time’
+  printf("%d",srand(time()));
+                    ^~~~
+In file included from ../main.c:3:0:
+/usr/include/time.h:192:15: note: declared here
+ extern time_t time (time_t *__timer) __THROW;
+subdir.mk:18: recipe for target 'main.o' failed
+               ^~~~
+make: *** [main.o] Error 1
+21:01:41 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:39:20: error: too few arguments to function ‘time’
+  printf("%d",srand(time());
+                    ^~~~
+In file included from ../main.c:3:0:
+/usr/include/time.h:192:15: note: declared here
+ extern time_t time (time_t *__timer) __THROW;
+               ^~~~
+../main.c:39:27: error: expected ‘)’ before ‘;’ token
+  printf("%d",srand(time());
+                           ^
+../main.c:41:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:02:17 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:39:2: error: invalid use of void expression
+  printf("%d",srand(time(NULL)));
+  ^~~~~~
+make: *** [main.o] Error 1
+subdir.mk:18: recipe for target 'main.o' failed
+21:02:32 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:39:2: error: invalid use of void expression
+  printf("%d",srand(12));
+  ^~~~~~
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:02:45 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:39:14: error: too few arguments to function ‘srand’
+  printf("%f",srand());
+              ^~~~~
+In file included from ../main.c:2:0:
+/usr/include/stdlib.h:337:13: note: declared here
+ extern void srand (unsigned int __seed) __THROW;
+             ^~~~~
+subdir.mk:18: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+21:03:27 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:40:11: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("%f",rand());
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:03:29 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:45 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:49 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:03:57 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:21 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:40:11: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("%f",rand());
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:04:23 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:04:46 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:40:16: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+  printf("%10.10f",rand());
+                ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:04:48 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:20 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:05:22 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:05:44 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:07:23 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:07:25 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:30 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:34 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:07:38 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:10 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:41:11: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+  printf("%d",j);
+           ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:08:14 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:25 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:51 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:08:53 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:13:39 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:13:41 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:15:17 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:15:18 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:21:20 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:21:22 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:22:45 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:22:46 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:24:06 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:24:08 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:24:47 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:24:49 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:25:15 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:25:17 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:25:32 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:28:59 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:29:02 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:18 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:29:20 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:29:37 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:29:38 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:11 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:50:13: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘double *’ [-Wformat=]
+    printf("%x\n",p);
+             ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:30:13 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:30:31 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:50:13: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘double *’ [-Wformat=]
+    printf("%x\n",p);
+             ^
+../main.c:51:13: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘double *’ [-Wformat=]
+    printf("%x\n",p+1);
+             ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:30:33 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:31:21 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:31:23 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:33:01 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:58:11: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘double *’ [-Wformat=]
+  printf("%x\n",p);
+           ^
+../main.c:59:13: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘double *’ [-Wformat=]
+  printf("0x%x\n",p+1);
+             ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:33:03 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:33:46 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c:5:6: warning: return type of ‘main’ is not ‘int’ [-Wmain]
+ void main(void)
+      ^~~~
+../main.c: In function ‘main’:
+../main.c:58:13: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘double *’ [-Wformat=]
+  printf("0x%X\n",p);
+             ^
+../main.c:59:13: warning: format ‘%X’ expects argument of type ‘unsigned int’, but argument 2 has type ‘double *’ [-Wformat=]
+  printf("0x%X\n",p+1);
+             ^
+Finished building: ../main.c
+ 
+Building target: Time_001
+Invoking: GCC C Linker
+gcc  -o "Time_001"  ./main.o   
+Finished building target: Time_001
+ 
+21:33:47 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.
+21:34:15 **** Incremental Build of configuration Release for project Time_001 ****
+make all 
+make: Nothing to be done for 'all'.

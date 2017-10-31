@@ -1,0 +1,6 @@
+23:00:32 **** Incremental Build of configuration Release for project OpenGL_001 ****
+make all 
+make: Nothing to be done for 'all'.
+
+23:00:32 Build Finished (took 77ms)
+
